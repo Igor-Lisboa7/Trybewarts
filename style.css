@@ -1,0 +1,42 @@
+* {
+  border: none;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+body {
+  
+  background: url('https://www.showmetech.com.br/wp-content/uploads//2023/02/cropped-1920-1080-1299476-1920x1024.png');
+  background-size: cover;
+  background-position: center center;
+}
+
+.text-shadow {
+  text-shadow: 0 0 5px white;
+}
+
+.bg-color-primary {
+  font-family: 'MedievalSharp', cursive;
+  background-color: rgb(50, 167, 145);
+}
+
+.h-full-view {
+  height: 100vh;
+}
+
+#evaluation-form {
+  
+  background-color: rgba(50, 167, 145, 0.4);
+  width: 675px;
+}
+
+hr{
+  border: 1px solid rgb(247, 244, 244);
+}
+
+#form{
+  font-family: 'MedievalSharp', cursive;
+}
