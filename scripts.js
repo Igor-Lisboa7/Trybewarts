@@ -1,3 +1,12 @@
+// Captura imagem log para botão home
+const btnHome = document.getElementById("home-page")
+
+
+
+btnHome.addEventListener('click', (e) => {
+  location.reload()
+})
+
 const inputPassword = document.querySelector('#senha');
 const inputEmail = document.querySelector('#email');
 const btnSubmit = document.querySelector('#submit');
